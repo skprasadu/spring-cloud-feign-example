@@ -12,7 +12,7 @@ public class CustomFeignConfig {
         return new feign.Contract.Default();
     }
 
-    @Bean
+    /*@Bean
     public BasicAuthRequestInterceptor basicAuthRequestInterceptor() {
         return new BasicAuthRequestInterceptor("user", "password");
     }
@@ -20,6 +20,6 @@ public class CustomFeignConfig {
     @Bean
     public OkHttpClient client() {
         return new OkHttpClient();
-    }
+    }*/
 
 }
